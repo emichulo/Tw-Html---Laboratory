@@ -1,4 +1,92 @@
-h1 {
-    color: hotpink;
-    font-family: cursive;
+body {
+    background-color: #2A363F;
 }
+
+.login-button {
+    background-color: #6ED9A0;
+    /* Makes the text white. */
+    color: #FFFFFF;
+    text-align: center;
+    /* Add round borders. */
+    border-radius: 8px;
+    /* Padding works life an internal-margin. */
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    font-size: 16px;
+    /* Apply our custom font. */
+    font-family: "Source Sans Pro", sans-serif;
+    /* <button> tag will add default styling, we want to discard it. */
+    border:  none;
+    margin-top: 20px;
+    margin-left: 39px;
+    
+  }
+
+  button:hover {
+    background-color: #167a45;
+  }
+
+  .email-input {
+    border:  1px solid #64C292;
+    background:  transparent;
+    padding:  10px 30px 10px 30px;
+    border-radius:  10px;
+    color:  white;
+    font-family: 'Courier New', monospace;
+    margin-top:20px;
+    margin-left: 20px;
+  }
+  .password-input {
+    border:  1px solid #64C292;
+    background:  transparent;
+    padding:  10px 30px 10px 30px;
+    border-radius:  10px;
+    color:  white;
+    font-family: 'Courier New', monospace;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .login-form {
+    /*  Use flexbox. */
+    display:  flex;
+    /* By default, it will be in a single horizontal row. */
+    flex-direction: column;
+    /* Align vertically and horizontally. */
+    justify-content: center;
+    align-items: flex-start;
+    color:  white;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .branding-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .title-container {
+    display:  flex;
+    flex-direction: column;
+    /* Vertical alignment. */
+    justify-content: center;
+    /* This time, we don't want horizontal alignment. */
+    /* Flex-start would mean left-alignment. */
+    align-items: center;
+
+    color: #050404;
+    text-align: center;
+    margin: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .page-container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-wrap:  wrap;
+  }
