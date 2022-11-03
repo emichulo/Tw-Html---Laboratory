@@ -41,6 +41,9 @@ class RegisterFormController {
             } else {
             	this.setValidation("firstName", "Looks good!");
             }
+            if(this.formData.firstName.length == 0){
+              this.setValidation("firstName", "  ");
+            }
             
         }
 

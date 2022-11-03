@@ -1,3 +1,8 @@
+h1 {
+    color: hotpink;
+    font-family: cursive;
+}
+
 body {
     background-color: #2A363F;
 }
@@ -19,8 +24,8 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     /* <button> tag will add default styling, we want to discard it. */
     border: none;
-    margin-top: 1px;
-    margin-left: 33px;
+    margin-top: 20px;
+    margin-left: 39px;
 }
 
 button:hover {
@@ -34,7 +39,7 @@ button:hover {
     border-radius: 10px;
     color: white;
     font-family: 'Courier New', monospace;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
@@ -45,7 +50,7 @@ button:hover {
     border-radius: 10px;
     color: white;
     font-family: 'Courier New', monospace;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
@@ -74,23 +79,16 @@ button:hover {
     /* This time, we don't want horizontal alignment. */
     /* Flex-start would mean left-alignment. */
     align-items: center;
-    color: #030000;
+    color: #050404;
     text-align: center;
     margin: 5px;
     font-family: "Source Sans Pro", sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 15px;
-}
-
-.title {
-    color: rgb(40, 104, 241);
-    font-size: 20px;
-    margin: 7px;
 }
 
 .page-container {
-    margin-top: 150px;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,6 +101,6 @@ button:hover {
     color: #000000;
     opacity: 0.6;
     margin-top: 12px;
-    margin-left: 50px;
+    margin-left: 75px;
     font-size: 13px;
 }
