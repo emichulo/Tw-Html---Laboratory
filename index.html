@@ -30,11 +30,24 @@
         
       
             <form class="login-form">
-              <input class="email-input" placeholder="  email@adress.com"/>
-              <input class="password-input" placeholder="      password" />
-              <button class="login-button">Sign In</button>
+              <input id="firstName" type="text" class="email-input" placeholder="First Name">
+              <p id="firstName-validation"></p>
+              <input id="lastName" type="text" class="email-input" placeholder="Last Name">
+              <p id="lastName-validation"></p>
+              <input id="email" type="email" class="email-input" placeholder="email@andress.com">
+              <p id="emailName-validation"></p>
+              <input id="birthday" type="date" class="email-input">
+              <p id="birthday-validation"></p>
+              <input id="password" type="password" class="password-input" placeholder="Password">
+              <p id="password-validation"></p>
+              <input id="confirmPassword" type="password" class="password-input" placeholder="Confirm Password">
+              <p id="confirmpassword-validation"></p>
+
+              <button class="login-button">Sign Up</button>
+              <a class="forgot-password">Already having an account?</a>
             </form>
           
           </div>
+          <script src="app.ts"></script>
     </body> 
 </html>
